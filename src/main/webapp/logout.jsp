@@ -2,15 +2,12 @@
 <html>
 <head>
     <jsp:include page="partials/head.jsp">
-        <jsp:param name="title" value="Your Profile" />
+        <jsp:param name="title" value="Please Log In" />
     </jsp:include>
 </head>
 <body>
     <jsp:include page="partials/navbar.jsp" />
-
-    <div class="container">
-        <h1>Viewing your profile.</h1>
-    </div>
-
+    <jsp:include page="/login.jsp" />
+    <h1>You have been logged out.</h1>
 </body>
 </html>
